@@ -1,0 +1,165 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font: 0.9em Arial, Sans-Serif;
+    background: #fff;
+    color: #000;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    margin: 0 0 14px;
+    line-height: 1.3em;
+    color: #333;
+    margin-top: 8px;    
+}
+
+h1 span {
+    font-size: 1.6em;
+    color: #B00000;
+}
+
+h2 {
+    margin: 0 0 10px;
+    padding: 3px 0 5px;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #000;
+}
+
+h2 span {
+    font-size: 1.1em;
+    color: #000;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: normal;
+    color: #000;
+}
+
+p, li {
+    color: #000;
+    font-size: 1.04em;
+    line-height: 1.35em;
+}
+
+a {
+    font-size: 1.04em;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#content {
+    text-align: left;
+    width: 900px;
+    margin: 0 auto;
+    padding-left: 25px;
+}
+
+#content p{
+    font-size: 1.04em;
+}
+
+#menu {
+    font-size: 1.04em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu li {
+    float: left;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    color: #000;
+    font-weight: bold;
+    float: left;
+}
+
+#content1 {
+    float:left;
+}
+
+.profimage {
+    float:left;
+    margin-right:20px;
+    margin-top: 8px;
+    padding:1px;
+    border:1px solid #021a40;
+}
+
+#content1 h1 {
+    padding:5px;
+}
+
+#content1 p {
+    padding-top: 4px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+#line1 {
+    float: left;
+    content:"";
+    background-color: #ddd;
+    width: 1px;
+    height: 40px;
+    margin-top: 35px;
+    margin-left: 0.4px;
+    margin-right: 0px;   
+}
+
+#content2 {
+    margin: 0px 10px 10px 0px;
+    padding: 0px 0px 10px 0px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+#content2 h3 {
+    border-left: 4px solid /*#EE486E*/ #B00000;
+    padding: 0 0 3px 12px;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+#teach {
+    border-left: 1px solid #ddd;
+    padding: 0px 2px 6px 12px;
+}
+
+#section {
+    clear: both;
+    border-top: 1px solid #ddd;
+    margin: 0 0 10px;
+}
+
+#section p {
+    position: relative;
+    margin: -10px 0 0 12px;
+    padding: 0 8px;
+    font-size: 1.0em;
+    background: #fff;
+    float: left;
+    text-align: center;
+}
